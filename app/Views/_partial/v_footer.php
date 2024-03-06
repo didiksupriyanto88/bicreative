@@ -1,5 +1,5 @@
 <footer class="bg-black">
-    <div class="container-1 footer-container">
+    <div class="container-80 footer-container">
         <div class="footer-1">
             <div class="grid-container grid-38-18">
                 <div>

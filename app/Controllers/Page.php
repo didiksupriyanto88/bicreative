@@ -11,17 +11,27 @@ class Page extends BaseController
             'cssPath' => 'assets/dist/css/home.css',
         ];
 
-        return view('v_home', $data);
+        return view('pg_home\v_home', $data);
+    }
+
+    public function designGraphics()
+    {
+        return view('pg_design\v_design');
+    }
+
+    public function socialMediaMarketing()
+    {
+        return view('pg_social\v_social');
     }
 
     public function webDev()
     {
-        return view('v_webdev');
+        return view('pg_webdev\v_webdev');
     }
 
     public function video()
     {
-        return view('v_videoprod');
+        return view('pg_video_prod\v_videoprod');
     }
 
     public function mobileApps()
