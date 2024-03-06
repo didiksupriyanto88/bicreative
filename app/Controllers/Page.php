@@ -26,12 +26,12 @@ class Page extends BaseController
 
     public function webDev()
     {
-        return view('pg_webdev\v_webdev');
+        return view('v_webdev');
     }
 
     public function video()
     {
-        return view('pg_video_prod\v_videoprod');
+        return view('v_videoprod');
     }
 
     public function mobileApps()

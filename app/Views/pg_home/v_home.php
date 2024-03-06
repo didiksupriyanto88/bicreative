@@ -11,14 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Custom .css-->
-    <link rel="stylesheet" href="<?= base_url() ?>\assets\dist\css\style.css">
-    <link rel="stylesheet" href="<?= base_url() ?>\assets\dist\css\pg-hm\hm_sect_hdr.css">
-    <link rel="stylesheet" href="<?= base_url() ?>\assets\dist\css\footer.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_hdr.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_why.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_dg.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_sm.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_vp.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_wd.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_porto.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_testi.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
 </head>
 
 <body>
     <?= $this->include('pg_home/hm_sect_header') ?>
-
+    <?= $this->include('pg_home/hm_sect_why') ?>
+    <?= $this->include('pg_home/hm_sect_design') ?>
+    <?= $this->include('pg_home/hm_sect_social') ?>
+    <?= $this->include('pg_home/hm_sect_video') ?>
+    <?= $this->include('pg_home/hm_sect_web') ?>
+    <?= $this->include('pg_home/hm_sect_porto') ?>
+    <?= $this->include('pg_home/hm_sect_testi') ?>
     <?= $this->include('/_partial/v_footer') ?>
 </body>
 
