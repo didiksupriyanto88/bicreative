@@ -32,7 +32,7 @@
     <?= $this->include('pg_home/hm_sect_web') ?>
     <?= $this->include('pg_home/hm_sect_porto') ?>
     <?= $this->include('pg_home/hm_sect_testi') ?>
-    <?= $this->include('/_partial/v_footer') ?>
+    <?= $this->include('_partial/v_footer') ?>
 </body>
 
 </html>

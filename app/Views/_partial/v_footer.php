@@ -1,13 +1,13 @@
 <footer class="bg-black">
     <div class="container-80 footer-container">
         <div class="footer-1">
-            <div class="grid-container grid-38-18">
-                <div>
+            <div class="grid-container footer-1-grid">
+                <div class="footer-1-about">
                     <img class="footer-image" src="https://bicreative.id/wp-content/uploads/2023/12/Logo-BiCreative-White.svg" alt="">
                     <p>BiCreative merupakan perusahaan konsultan sekaligus Creative & Digital Hub No.1 di Indonesia yang bertujuan membantu bisnis dalam melakukan Digital Marketing dengan berbagai layanan terbaik.</p>
                 </div>
 
-                <div>
+                <div class="footer-1-layanan">
                     <h2>Layanan</h2>
                     <ul>
                         <li><a href="<?= base_url() ?>design-graphics/" target="_self" title="Design Graphics - BiCreative">Design Graphics</a></li>
@@ -18,16 +18,22 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="footer-1-touch">
                     <h2>Get In Touch</h2>
-                    <ul>
-                        <li>E-Mail</li>
-                        <li>reativebic01@gmail.com</li>
-                    </ul>
-                    <ul>
-                        <li>WhatsApp</li>
-                        <li>(+62) 823 3666 1897</li>
-                    </ul>
+                    <div class="mail-wa-grid-container">
+                        <div>
+                            <ul>
+                                <li>E-Mail</li>
+                                <li>reativebic01@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>WhatsApp</li>
+                                <li>(+62) 823 3666 1897</li>
+                            </ul>
+                        </div>
+                    </div>
                     <ul>
                         <li>Office</li>
                         <li>Perum Griya Shanta D 320, Jl. Soekarno - Hatta
