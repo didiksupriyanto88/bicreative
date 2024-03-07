@@ -26,7 +26,7 @@ class Page extends BaseController
 
     public function webDev()
     {
-        return view('v_webdev');
+        return view('pg_web_developer\v_webdev');
     }
 
     public function video()
