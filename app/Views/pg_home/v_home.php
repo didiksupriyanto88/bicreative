@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_wd.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_porto.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_testi.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_google_rating.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-hm/sect_order.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
 </head>
 
@@ -32,6 +34,8 @@
     <?= $this->include('pg_home/hm_sect_web') ?>
     <?= $this->include('pg_home/hm_sect_porto') ?>
     <?= $this->include('pg_home/hm_sect_testi') ?>
+    <?= $this->include('pg_home/hm_sect_google_rating') ?>
+    <?= $this->include('pg_home/hm_sect_order') ?>
     <?= $this->include('_partial/v_footer') ?>
 </body>
 
