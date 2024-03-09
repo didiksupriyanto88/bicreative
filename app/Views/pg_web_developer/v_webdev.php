@@ -11,9 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Custom .css-->
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-wd/sect_wd_header.css">
 </head>
 
 <body>
+
+    <?= $this->include('App\Views\pg_web_developer\wd_sect_header') ?>
     <!-- Harga-->
     <div class="harga">
         <div class="container harga-container">
