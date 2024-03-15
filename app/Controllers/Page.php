@@ -16,7 +16,12 @@ class Page extends BaseController
 
     public function designGraphics()
     {
-        return view('pg_design\v_design');
+        $data = [
+            'title' => 'Design Graphics - BiCreative',
+            'cssPath' => 'assets/dist/css/home.css',
+        ];
+
+        return view('pg_design\v_design', $data);
     }
 
     public function socialMediaMarketing()

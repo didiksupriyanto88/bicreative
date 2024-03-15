@@ -5,10 +5,11 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Page::home');
-$routes->get('/home', 'Page::home');
-$routes->get('/design-graphics', 'Page::designGraphics');
-$routes->get('/social-media-marketing', 'Page::socialMediaMarketing');
-$routes->get('/web-developer', 'Page::webdev');
-$routes->get('/mobile-apps', 'Page::mobileApps');
-$routes->get('/video-production', 'Page::video');
+$routes->get('/', 'Home::index');
+$routes->get('/home', 'Home::index');
+$routes->get('/layanan', 'Layanan::index');
+$routes->get('/design-graphics', 'DesignGraphic::index');
+$routes->get('/social-media-management', 'SocialMediaManagement::index');
+$routes->get('/web-development', 'WebDevelopment::index');
+$routes->get('/mobile-apps', 'MobileApps::index');
+$routes->get('/video-production', 'VideoProduction::index');
