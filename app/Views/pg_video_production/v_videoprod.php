@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiCreative - Video Production</title>
+    <title>Video Production - BiCreative</title>
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Custom .css-->
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/navbar.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/vp.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/vid-modal.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
+
 </head>
 
 <body>
+    <!-- Navbar-->
+    <?= $this->include('_partial/v_navbar') ?>
 
     <!-- Header-->
     <div class="bg-ffc800">
@@ -214,38 +219,7 @@
     </div>
 
     <!-- Footer-->
-    <footer class="bg-black">
-        <div class="container-1">
-            <div class="grid">
-                <div>
-                    <div></div>
-                    <span>BiCreative merupakan perusahaan konsultan sekaligus Creative & Digital Hub No.1 di Indonesia yang bertujuan membantu bisnis dalam melakukan Digital Marketing dengan berbagai layanan terbaik.</span>
-                </div>
-                <div>
-                    <h2>Our Solution</h2>
-                    <ul>
-                        <li>Branding & Desain</li>
-                        <li>Social Media Management</li>
-                        <li>Branding & Desain</li>
-                        <li>Branding & Desain</li>
-                        <li>Branding & Desain</li>
-                    </ul>
-                </div>
-                <div>
-
-                </div>
-            </div>
-
-            <div>
-
-            </div>
-
-            <div>
-                <span>Copyright <?= date('Y') ?> Bicreative part of <a href="https://bic.id/" target="_blank" rel="noopener" title="Officia Site Brawijaya Intensive Centre - BIC">BIC.ID</a></span>
-            </div>
-        </div>
-    </footer>
-
+    <?= $this->include('_partial/v_footer') ?>
     <script>
 
     </script>

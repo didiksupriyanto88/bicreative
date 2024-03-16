@@ -50,29 +50,64 @@
     <div class="container-80">
         <div class="grid-container layanan-grid-3">
             <div class="layanan-card layanan-card-content">
-                <img src="" alt="">
-                <div>
-                    <h2 class="layanan-card-title">Design<br />Graphics</h2>
-                    <p class="layanan-card-desc">Sentuhan desain yang inspiratif, membangun citra yang tak terlupakan</p>
-                    <button class="layanan-card-button"><a href="<?= base_url() ?>/design-graphic">Selengkapnya</a></button>
-                </div>
+                <a style="text-decoration:none;" href="<?= base_url() ?>design-graphic">
+                    <img src="" alt="">
+                    <div>
+                        <h2 class="layanan-card-title">Design Graphics</h2>
+                        <p class="layanan-card-desc">Sentuhan desain yang inspiratif, membangun citra yang tak terlupakan</p>
+                        <div class="layanan-card-link">Selengkapnya</div>
+                    </div>
+                </a>
             </div>
             <div class="layanan-card layanan-card-content">
-                <img src="" alt="">
-                <div>
-                    <h2 class="layanan-card-title">Social Media<br />Management</h2>
-                    <p class="layanan-card-desc">Sentuhan desain yang inspiratif, membangun citra yang tak terlupakan</p>
-                    <button class="layanan-card-button"><a href="<?= base_url() ?>/social-media-management">Selengkapnya</a></button>
-                </div>
+                <a style="text-decoration:none;" href="<?= base_url() ?>social-media-management">
+                    <img src="" alt="">
+                    <div>
+                        <h2 class="layanan-card-title">Social Media Management</h2>
+                        <p class="layanan-card-desc">Dengan layanan Social Media Management kami, bisnis Anda dapat dikelola secara efisien di dunia digital yang kompleks.</p>
+                        <div class="layanan-card-link">
+                            Selengkapnya
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="layanan-card layanan-card-content">
-                <img src="" alt="">
-                <div>
-                    <h2 class="layanan-card-title">Web<br />Development</h2>
-                    <p class="layanan-card-desc">Sentuhan desain yang inspiratif, membangun citra yang tak terlupakan</p>
-                    <button class="layanan-card-button"><a href="<?= base_url() ?>/web-development">Selengkapnya</a></button>
-                </div>
+                <a style="text-decoration:none;" href="<?= base_url() ?>web-development">
+                    <img src="" alt="">
+                    <div>
+                        <h2 class="layanan-card-title">Web Development</h2>
+                        <p class="layanan-card-desc">Wujudkan website profesional untuk berbagai kebutuhan dengan desain tampilan, fitur dan teknologi website yang paling up-to-date</p>
+                        <div class="layanan-card-link">
+                            Selengkapnya
+                        </div>
+                    </div>
+                </a>
             </div>
+            <div class="layanan-card layanan-card-content">
+                <a style="text-decoration:none;" href="<?= base_url() ?>mobile-apps">
+                    <img src="" alt="">
+                    <div>
+                        <h2 class="layanan-card-title">Mobile Apps</h2>
+                        <p class="layanan-card-desc">Pilihan jasa pembuatan aplikasi mobile Android dan iOS terbaik dan hasil berkualitas</p>
+                        <div class="layanan-card-link">
+                            Selengkapnya
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="layanan-card layanan-card-content">
+                <a style="text-decoration:none;" href="<?= base_url() ?>video-production">
+                    <img src="" alt="">
+                    <div>
+                        <h2 class="layanan-card-title">Video Production</h2>
+                        <p class="layanan-card-desc">Layanan video production atau pembuatan video untuk berbagai macam kebutuhan promosi bisnis dan event</p>
+                        <div class="layanan-card-link">
+                            Selengkapnya
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
     </div>
     <?= $this->include('_partial/v_footer') ?>

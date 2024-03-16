@@ -29,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Custom .css-->
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/navbar.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-header.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-about.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-steps.css">
@@ -37,6 +38,7 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-cta-konsul.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-testi.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/pg-ma/ly-btm-cta.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
     <!-- Internal .css-->
     <style>
         body {
@@ -76,6 +78,7 @@
 
 <body>
     <main>
+        <?= $this->include('_partial/v_navbar') ?>
         <?= $this->include('pg_mobile_apps/v_mod_lay_hd') ?>
         <?= $this->include('pg_mobile_apps/v_mod_lay_abt') ?>
         <?= $this->include('pg_mobile_apps/v_mod_lay_stps') ?>
@@ -84,6 +87,7 @@
         <?= $this->include('pg_mobile_apps/v_mod_lay_cta_konsul') ?>
         <?= $this->include('pg_mobile_apps/v_mod_lay_tst') ?>
         <?= $this->include('pg_mobile_apps/v_mod_lay_btm_cta') ?>
+        <?= $this->include('_partial/v_footer') ?>
     </main>
 </body>
 
