@@ -1,5 +1,5 @@
 <div class="sect-wd-header-bg">
-    <div class="wd-container-1 grid-container grid-50">
+    <div class="container-80 grid-container grid-50">
         <div class="wd-hdr-grid-item-1">
             <img src="https://bicreative.id/wp-content/uploads/2024/02/Web-BIC-WD_03-480x541.webp" alt="">
         </div>
