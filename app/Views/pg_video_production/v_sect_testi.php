@@ -1,18 +1,18 @@
     <div class="vp-testi-bg">
         <div class="vp-testi-container">
             <div class="vp-testi-card-container">
-                <div class=" vp-testi-flex">
+                <div class=" vp-testi-grid">
                     <div class="vp-testi-card">
                         <div class="testimoni-star">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
                         </div>
 
                         <div class="testimoni-text">
-                            <span>Sejauh kami sudah bekerja sama membuat 5 project video dan kerjasama yang dijalin sangat profesional sekali, Good Job!</span>
+                            Sejauh kami sudah bekerja sama membuat 5 project video dan kerjasama yang dijalin sangat profesional sekali, Good Job!
                         </div>
 
                         <div class="testimoni-author">
@@ -28,15 +28,15 @@
                     </div>
                     <div class="vp-testi-card">
                         <div class="testimoni-star">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
                         </div>
 
                         <div class="testimoni-text">
-                            <span>Terima kasih buat ViCreative yang sudah embantu kami membuatkan video Wedding Saya dan Suami</span>
+                            Terima kasih buat ViCreative yang sudah embantu kami membuatkan video Wedding Saya dan Suami
                         </div>
 
                         <div class="testimoni-author">
@@ -51,15 +51,15 @@
                     </div>
                     <div class="vp-testi-card">
                         <div class="testimoni-star">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
-                            <img class="star-image" src="<?= base_url() ?>assets/dist/image/star.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
+                            <img class="star-image" src="https://bicreative.id/wp-content/uploads/2024/03/star-yellow.svg" alt="" width="28px" height="auto">
                         </div>
 
                         <div class="testimoni-text">
-                            <span>Sejauh kami sudah bekerja sama membuat 5 project video dan kerjasama yang dijalin sangat profesional sekali, Good Job!</span>
+                            Sejauh kami sudah bekerja sama membuat 5 project video dan kerjasama yang dijalin sangat profesional sekali, Good Job!
                         </div>
 
                         <div class="testimoni-author">
@@ -75,6 +75,5 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>

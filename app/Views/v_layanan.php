@@ -8,6 +8,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Custom .css-->
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/navbar.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/layanan.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -26,15 +35,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Custom .css-->
-    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/navbar.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/layanan.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/dist/css/footer.css">
     <style>
         body {
             background-color: #F2F2F2;
@@ -50,7 +50,7 @@
     <div class="container-80">
         <div class="grid-container layanan-grid-3">
             <div class="layanan-card layanan-card-content">
-                <a style="text-decoration:none;" href="<?= base_url() ?>design-graphic">
+                <a style="text-decoration:none;" href="<?= base_url() ?>design-graphics">
                     <img src="" alt="">
                     <div>
                         <h2 class="layanan-card-title">Design Graphics</h2>
@@ -107,7 +107,6 @@
                     </div>
                 </a>
             </div>
-
         </div>
     </div>
     <?= $this->include('_partial/v_footer') ?>

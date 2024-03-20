@@ -4,7 +4,7 @@
             <h2>LAYANAN DESAIN TERLENGKAP</h2>
             <h3>Pilihan Jasa Branding & Desain Lainnya</h3>
         </div>
-        <div class="grid-container dg-srvc-grid-3">
+        <div class="dg-srvc-flex-container">
             <div class="dg-srvc-card">
                 <div class="dg-srvc-card-image">
                     <img src="https://bicreative.id/wp-content/uploads/2023/12/BiC-Service-01.webp" alt="" width="100%" height="auto">
